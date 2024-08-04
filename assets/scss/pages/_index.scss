@@ -58,6 +58,7 @@
   }
   @media (max-width:$breakpoint-small){
     .banner{
+        height: 396px;
         padding-right: 2px;
         .banner_body{
             padding-top: 144px; //再想想

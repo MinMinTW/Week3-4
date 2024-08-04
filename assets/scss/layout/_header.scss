@@ -28,21 +28,24 @@
 }
 @media (max-width:$breakpoint-small){
   .header{
-    padding: 0 3px;
+    padding: 0 ;
+    .container{
+      padding: 0;
+    }
     .nav{
       display: $d-block;
       .nav_logo{
-        padding: 12px 0;
+        margin: 16px 0 15.43px 15px;
       }
     }
     .nav_list{
       flex-wrap: $flex-wrap;
-      max-width: 375px;
       .list_item{
         margin-left: 0;
         width:50%;
         padding: 12px 0;
         text-align: center;
+        border: 1px solid #FFFFFF;
         .list_item_link{
           color: $text-white-color;
           font-size: 16px;
