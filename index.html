@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glasses Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script type="module" crossorigin src="/Week3-4/assets/main-ee520d9d.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" crossorigin src="/Week3-4/assets/main-868b802c.js"></script>
     <link rel="stylesheet" href="/Week3-4/assets/main-2e7c159d.css">
   </head>
 
@@ -23,7 +24,7 @@
         </ul>
     </nav>
 </header>      <div class="banner">
-        <div class="banner_body container">
+        <div data-aos="fade-left" data-aos-duration="3000" class="banner_body container">
           <p class="banner_content">Promise-Desert 2020 早春系列</p>
           <h2 class="banner_title">看得清，才能看得遠</h2>
           <button class="banner_btn">立即購買</button>
@@ -32,7 +33,7 @@
       <div class="specialty">
         <div class="specialty_body container">
           <h2 class="l_title">用專業的心，做專業的事</h2>
-          <ul class="specialty_list">
+          <ul data-aos="fade-up" data-aos-duration="3000" class="specialty_list">
             <li class="specialty_list_item">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section2-1.png?raw=true" alt="單一價格" class="specialty_item_pic">
               <h3 class="specialty_item_title">單一價格</h3>
@@ -60,15 +61,15 @@
         <div class="classic_body container">
           <h2 class="l_title">經典系列鏡框</h2>
           <ul class="classic_list">
-            <li class="classic_list_item">
+            <li data-aos="fade-up-left" data-aos-duration="3000" class="classic_list_item">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-1.png?raw=true" alt="" class="classic_item_pic">
               <h3 class="l_item_content">OPTICAL</h3>
             </li>
-            <li class="classic_list_item">
+            <li data-aos="fade-up" data-aos-duration="3000" class="classic_list_item">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-2.png?raw=true" alt="" class="classic_item_pic">
               <h3 class="l_item_content">SUNGLASSES</h3>
             </li>
-            <li class="classic_list_item">
+            <li data-aos="fade-up-right" data-aos-duration="3000" class="classic_list_item">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-3.png?raw=true" alt="" class="classic_item_pic">
               <h3 class="l_item_content">SUNGLASSES</h3>
             </li>
@@ -78,11 +79,11 @@
       <div class="co-branding">
         <h2 class="l_title">聯名設計鏡框</h2>
         <ul class="co-branding_list container">
-          <li class="co-branding_list_item">
+          <li data-aos="fade-down-right" data-aos-duration="3000" class="co-branding_list_item">
             <div class="co-branding_DOUBLEA"></div>
             <h3 class="l_item_content">DOUBLE A+</h3>
           </li>
-          <li class="co-branding_list_item">
+          <li data-aos="fade-down-left" data-aos-duration="3000" class="co-branding_list_item">
             <div class="co-branding_youth"></div>
             <h3 class="l_item_content">YOUTH</h3>
           </li>
@@ -90,7 +91,7 @@
       </div>
       <div class="recommandation">
         <h2 class="l_title">顧客推薦</h2>
-        <ul class="recommandation_list container">
+        <ul data-aos="flip-left" data-aos-duration="3000" class="recommandation_list container">
           <li class="recommandation_list_item">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-1.png?raw=true" alt="Jessy" class="recommandtion_photo">
             <p class="recommandation_name">Jessy</p>
@@ -119,7 +120,7 @@
       </div>
       <div class="contact">
         <h2 class="l_title">聯絡我們</h2>
-        <form action="index.html" class="contact_form">
+        <form data-aos="zoom-in" data-aos-duration="3000" action="index.html" class="contact_form">
           <p class="contact_intro">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
           <label for="name">姓名</label></br>
           <input class="contact_input_style" type="text" placeholder="陳小明" name="name"></br>
@@ -191,5 +192,6 @@
     </div>
 </div>
     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
